@@ -1,6 +1,7 @@
 package server
 
 const ACTION_AUTH string = "AUTH";
+const ACTION_LOGOUT string = "LOGOUT";
 
 type Message struct {
 	Action string `json:"action"`
