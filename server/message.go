@@ -11,6 +11,6 @@ func (message *Message) String() string {
 	return "Action: " + message.Action
 }
 
-func (message *Message) Attribute(attribute string) string {
-	return "test"
+func (message *Message) Attribute(attribute string) (string, error) {
+	return "test", nil
 }
